@@ -69,16 +69,16 @@ elif menu == "Katalog Rumah":
     # Dummy data katalog rumah
     data = [
         {
-            "Nama": "Tipe 45 Taman Asri",
+            "Nama": "Tipe 45 PT. Zamzam",
             "Harga": "Rp 350.000.000",
-            "Lokasi": "Bandung Timur",
+            "Lokasi": "Bengawan Solo",
             "Status": "Tersedia",
             "Foto": "https://via.placeholder.com/300x200.png?text=Rumah+1"
         },
         {
             "Nama": "Tipe 60 Hook Premium",
             "Harga": "Rp 520.000.000",
-            "Lokasi": "Cimahi Selatan",
+            "Lokasi": "Dorogowok",
             "Status": "Sold Out",
             "Foto": "https://via.placeholder.com/300x200.png?text=Rumah+2"
         }
