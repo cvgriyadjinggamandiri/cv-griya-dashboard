@@ -45,19 +45,19 @@ if menu == "Dashboard":
         st.markdown("<h4 style='color:#1f77b4;'>Dashboard Utama</h4>", unsafe_allow_html=True)
 
     st.markdown("---")
-    st.subheader("📊 Ringkasan Proyek")
+    st.subheader("📊 Total Rumah")
     col1, col2, col3 = st.columns(3)
     with col1:
-        st.metric("Total Proyek", "24", "+3 bulan ini")
+        st.metric("Total Rumah", "24", "+3 bulan ini")
     with col2:
         st.metric("Klien Aktif", "12", "+1 minggu ini")
     with col3:
-        st.metric("Pendapatan", "Rp 120.000.000", "+15%")
+        st.metric("Minimal Harga Rumah", "Rp 120.000.000", "+15%")
 
 # ---------- UPLOAD FOTO ---------- #
 elif menu == "Upload Foto":
-    st.markdown("## 📸 Upload Foto Proyek")
-    uploaded_file = st.file_uploader("Pilih gambar proyek", type=["png", "jpg", "jpeg"])
+    st.markdown("## 📸 Upload Foto Rumah")
+    uploaded_file = st.file_uploader("Pilih gambar Rumah", type=["png", "jpg", "jpeg"])
     if uploaded_file:
         st.image(uploaded_file, caption="Preview Gambar", use_column_width=True)
         st.success("Foto berhasil diunggah! (simulasi)")
